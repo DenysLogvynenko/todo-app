@@ -1,0 +1,101 @@
+.homepage {
+  height: 100%;
+  width: 100%;
+  background: #050F1C;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.add-edit-input {
+  position: relative;
+  top: 20px;
+  outline: none;
+  height: 30px;
+  font-size: 25px;
+  padding: 5px 20px 5px 20px;
+  background: #111C2A;
+  border: 2px solid #1EBCE2;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 60px;
+}
+.add-edit-input::placeholder{
+  font-size: 19px;
+  color: white;
+}
+
+.add-confirm-icon {
+  position: absolute;
+  transform: scale(2);
+  top: 30px;
+  right: 36%;
+  cursor: pointer;
+  color: white;
+}
+
+.todo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111C2A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  width: 550px;
+}
+.todo-list{
+  margin: 0 auto;
+}
+.span-item {
+  color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+
+.edit-button, .delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+
+}
+
+.logout-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 16px;
+  background: #1EBCE2;
+  box-shadow: 0px 0px 16px rgba(138, 247, 255, 0.4);
+  border-radius: 8px;
+  color: white;
+}
+
+.eclipse{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 250px;
+  height: 250px;
+  background: #0877B6;
+  filter: blur(200px);
+}
+.eclipse2{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 250px;
+  height: 250px;
+  background: #0877B6;
+  filter: blur(200px);
+}
+.icon-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
